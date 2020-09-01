@@ -17,6 +17,16 @@ new RepeatRequestMinderWebpackPlugin({
 }),
 ```
 配置项chunk中填入你希望监听重复请求的entry名字
+也可以配置toast是否显示以及toast显示的时长(默认显示toast，时长为3秒)
+```js
+new RepeatRequestMinderWebpackPlugin({
+  chunk: 'index',
+  options: {
+    isShowToast: true,
+    toastTime: 10000
+  }
+}),
+```
 
 ## Author
 
