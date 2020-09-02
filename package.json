@@ -1,5 +1,5 @@
 {
-  "name": "@sugarteam/repeat-request-minder-webpack-plugin",
+  "name": "repeat-request-minder-webpack-plugin",
   "title": "repeat-request-minder-webpack-plugin",
   "version": "1.0.0",
   "description": "一个可以帮助你检查项目中是否存在重复请求的webpack插件。使用后会自动监听请求，当发现1秒内有发出多次相同的请求时，会toast提示并在控制台上打印请求信息。",
@@ -35,8 +35,5 @@
   },
   "devDependencies": {
     "webpack-cli": "^3.3.12"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
   }
 }
