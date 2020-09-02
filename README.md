@@ -11,7 +11,7 @@
 ## Usage
 
 ```js
-const RepeatRequestMinderWebpackPlugin = require('./repeat-request-minder-webpack-plugin');
+const RepeatRequestMinderWebpackPlugin = require('repeat-request-minder-webpack-plugin');
 new RepeatRequestMinderWebpackPlugin({
   chunk: 'index',
 }),
